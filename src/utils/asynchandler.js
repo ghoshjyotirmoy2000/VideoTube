@@ -5,3 +5,5 @@ const asyncHandler = (requesthandler) => {
             .catch((error) => next(error))
     }
 }
+
+export default asyncHandler
